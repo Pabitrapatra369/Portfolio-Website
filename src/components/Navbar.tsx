@@ -15,7 +15,7 @@ const Navbar = (props: Props) => {
         </div>
         <div className='flex items-center space-x-4 md:space-x-8'>
             <Link className='text-violet-500 hover:text-pink-700 uppercase tracking-wide md:tracking-widest text-sm md:text-base' href="/projects">Projects</Link>
-            <Link className='text-violet-500 hover:text-pink-700 uppercase tracking-wide md:tracking-widest text-sm md:text-base'  href="/blogs">Blogs</Link>
+            <Link className='text-violet-500 hover:text-pink-700 uppercase tracking-wide md:tracking-widest text-sm md:text-base'  href="/posts">Blogs</Link>
         </div>
     </nav>
   )
