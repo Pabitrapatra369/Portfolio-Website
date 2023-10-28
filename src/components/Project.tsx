@@ -1,10 +1,11 @@
+import Link from "next/link";
 import React from "react";
 
 type Props = {};
 
 const Project = (props: Props) => {
   return (
-    <div className=" relative h-[200px] w-[300px] rounded-lg group cursor-pointer shadow-lg shadow-gray-400 hover:scale-105 duration-300">
+    <Link href="/projects/123" className=" relative h-[200px]  rounded-lg group cursor-pointer shadow-lg shadow-gray-400 hover:scale-105 duration-300">
       <img
         src="/fourth.jpg"
         alt=""
@@ -22,7 +23,7 @@ const Project = (props: Props) => {
           remaining essentially unchanged.
         </p>
       </div>
-    </div>
+    </Link>
   );
 };
 

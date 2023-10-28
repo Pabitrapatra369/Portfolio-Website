@@ -10,8 +10,8 @@ const Header = (props: Props) => {
   return (
    <section className=' relative h-[calc(100vh-56px)] z-10 w-full flex justify-center items-center '>
       <div className='flex flex-col items-center justify-center space-y-4'>
-        <div className=' bg-white rounded-full h-40 w-40 flex justify-center items-center  shadow-md shadow-gray-400 hover:scale-105 duration-500 overflow-hidden border-purple-500'>
-            <img src="/first.jpg" alt="image" height={150} width={150}/>
+        <div className=' bg-white rounded-full h-80 w-80 flex justify-center items-center  shadow-md shadow-gray-400 hover:scale-105 duration-500 overflow-hidden border-purple-500'>
+            <img src="/picofme.png" alt="image" height={350} width={350}/>
         </div>
         <p className=' font-bold'> 
             I build responsive full stack layouts
