@@ -5,8 +5,8 @@ import { useEffect,useRef } from 'react'
 
 type Props = {
     children:React.ReactNode,
-    delay:Number,
-    direction:String
+    delay:number,
+    direction:string
 }
 
 const Motion = ({children,delay,direction}: Props) => {
@@ -20,7 +20,7 @@ const Motion = ({children,delay,direction}: Props) => {
         }
     },[isInView,controls])
   return (
-    <div className=' flex items-center justify-center '>
+    <div ref={ref} className=' flex items-center justify-center '>
         <motion.div
         variants={{
             hidden:{
@@ -38,7 +38,10 @@ const Motion = ({children,delay,direction}: Props) => {
         animate={controls}
         transition={{
             duration:1.5,
-            type:"tween"
+            type:"tween",
+            delay:delay,
+            ease:"easeOut"
+
         }}
         >
             {children}

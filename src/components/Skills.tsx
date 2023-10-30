@@ -1,5 +1,6 @@
 import React from 'react'
 import SkillCircle from './SkillCircle'
+import Motion from './Motion'
 
 type Props = {}
 
@@ -9,6 +10,7 @@ const skills = (props: Props) => {
        <h1 className=" text-2xl uppercase tracking-[20px] text-violet-500">
         Skills
       </h1>
+      <Motion  delay={1} direction={'up'}>
       <div className=' grid grid-cols-3 md:grid-cols-6 gap-4 md:gap-8'>
        <SkillCircle/>
        <SkillCircle/>
@@ -23,6 +25,8 @@ const skills = (props: Props) => {
        <SkillCircle/>
        <SkillCircle/>
       </div>
+      </Motion>
+      
     </section>
   )
 }

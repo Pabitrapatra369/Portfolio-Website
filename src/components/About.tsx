@@ -1,4 +1,5 @@
 import React from "react";
+import Motion from "./Motion";
 
 type Props = {};
 
@@ -10,6 +11,7 @@ const About = (props: Props) => {
       </h1>
       <div className=" flex flex-col-reverse md:flex-row items-center md:justify-between w-full">
         <div className="md:w-[70%] w-full ">
+          <Motion delay={1} direction={"left"} >
           <div className=" p-4 text-center md:text-left font-semibold text-sm">
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -24,8 +26,13 @@ const About = (props: Props) => {
               Lorem Ipsum.
             </p>
           </div>
+          </Motion>
         </div>
+        
+        
         <div className="w-[200px] md:w-auto">
+        <Motion delay={1} direction={"right"} >
+
           <div className="flex items-center justify-center shadow-lg shadow-gray-400 rounded-lg bg-white h-[250px] p-2 w-full ">
            <div className=" w-full h-full bg-violet-500 rounded-lg">
            <img
@@ -37,6 +44,9 @@ const About = (props: Props) => {
             />
            </div>
           </div>
+          </Motion>
+          
+        
         </div>
       </div>
     </section>
