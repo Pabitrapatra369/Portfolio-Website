@@ -22,7 +22,7 @@ const Footer = (props: Props) => {
             bgColor="#F1F6F9"
             fgColor="#793FEF"
             className=" hover:scale-125 duration-200"
-            url="https://twitter.com/PKpatra369"
+            url="https://github.com/Pabitrapatra369"
           />
           <SocialIcon
             style={{ height: 25, width: 25 }}
