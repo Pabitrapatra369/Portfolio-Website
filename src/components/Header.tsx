@@ -30,10 +30,10 @@ const Header = (props: Props) => {
 
         <Motion  delay={1} direction={'up'}>
        <div className='flex items-center space-x-6'>
-        <SocialIcon style={{height:25,width:25}} bgColor='#793FEF' className=' hover:scale-125 duration-200' url="https://facebook.com" />
-        <SocialIcon style={{height:25,width:25}} bgColor='#793FEF' className=' hover:scale-125 duration-200' url="https://twitter.com" />
-        <SocialIcon style={{height:25,width:25}} bgColor='#793FEF' className=' hover:scale-125 duration-200' url="https://twitter.com" />
-        <SocialIcon style={{height:25,width:25}} bgColor='#793FEF' className=' hover:scale-125 duration-200' url="https://twitter.com" />
+        <SocialIcon style={{height:25,width:25}} bgColor='#793FEF' className=' hover:scale-125 duration-200' url="https://www.linkedin.com/in/pabitra-patra-558875225/" />
+        <SocialIcon style={{height:25,width:25}} bgColor='#793FEF' className=' hover:scale-125 duration-200' url="https://twitter.com/PKpatra369" />
+        <SocialIcon style={{height:25,width:25}} bgColor='#793FEF' className=' hover:scale-125 duration-200' url="https://www.instagram.com/pkpatra_/" />
+        <SocialIcon style={{height:25,width:25}} bgColor='#793FEF' className=' hover:scale-125 duration-200' url="https://www.facebook.com/profile.php?id=100094139532005" />
 
         </div>
         </Motion>

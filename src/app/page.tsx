@@ -16,22 +16,21 @@ export default function Home() {
     <Navbar/>
     {/* header */}
     <Header/>
-    <Divider/>
+   
     {/* about */}
     <About/>
-    <Divider/>
+    
     
     {/* skills */}
     <Skills/>
-    <Divider/>
+    
 
     {/* projects */}
     <Projects/>
-    <Divider/>
-
+   
     {/* blogs */}
     <Blogs/>
-    <Divider/>
+
 
     {/* contact */}
     <Contact/>

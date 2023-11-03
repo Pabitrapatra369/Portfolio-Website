@@ -15,28 +15,28 @@ const Footer = (props: Props) => {
             bgColor="#F1F6F9"
             fgColor="#793FEF"
             className=" hover:scale-125 duration-200"
-            url="https://facebook.com"
+            url="https://www.linkedin.com/in/pabitra-patra-558875225/"
           />
           <SocialIcon
             style={{ height: 25, width: 25 }}
             bgColor="#F1F6F9"
             fgColor="#793FEF"
             className=" hover:scale-125 duration-200"
-            url="https://twitter.com"
+            url="https://twitter.com/PKpatra369"
           />
           <SocialIcon
             style={{ height: 25, width: 25 }}
             bgColor="#F1F6F9"
             fgColor="#793FEF"
             className=" hover:scale-125 duration-200"
-            url="https://twitter.com"
+            url="https://www.instagram.com/pkpatra_/"
           />
           <SocialIcon
             style={{ height: 25, width: 25 }}
             bgColor="#F1F6F9"
             fgColor="#793FEF"
             className=" hover:scale-125 duration-200"
-            url="https://twitter.com"
+            url="https://www.facebook.com/profile.php?id=100094139532005"
           />
         </div>
        </Motion>
